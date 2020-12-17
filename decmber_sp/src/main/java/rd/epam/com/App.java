@@ -13,8 +13,13 @@ public class App {
         Student student = new Student("Андрей", "Юрьевич");
         student.setGroup(Group.FIRST);
         student.setSecondName("Иванов");
-
+		
+        Student student = new Student("Александра", "Борисовна");
+        student.setGroup(Group.SECOND);
+        student.setSecondName("Батурина");
+		
         students.add(student);
+		students.add(student2);
         students.forEach(System.out::println);
     }
 }
